@@ -4,35 +4,35 @@ export async function seed(knex: Knex): Promise<void> {
   await knex('produtos').insert([
     {
       fornecedor_id: 1,
-      nome: 'EN BLOCK SOFÁ-CAMA 3 LUGARES',
+      nome: 'EN BLOCK SOFA-CAMA 3 LUGARES',
       image_url:
         'https://tokstok.vtexassets.com/arquivos/ids/2217685-553-553/block-sofa-cama-3-lugares-noriker-deserto-en-block_st0.jpg?v=637243060113970000',
       preco: 3299.0
     },
     {
       fornecedor_id: 1,
-      nome: 'SIDE SOFÁ-CAMA 3 LUGARES',
+      nome: 'SIDE SOFA-CAMA 3 LUGARES',
       image_url:
         'https://tokstok.vtexassets.com/arquivos/ids/1791150-553-553/Sofa-cama-3-Lugares-Lowvel-Caqui-Side.jpg?v=637009021660470000',
       preco: 3399.0
     },
     {
       fornecedor_id: 1,
-      nome: 'CLAP SOFÁ-CAMA 3 LUGARES',
+      nome: 'CLAP SOFA-CAMA 3 LUGARES',
       image_url:
         'https://tokstok.vtexassets.com/arquivos/ids/2218023-553-553/sofa-cama-3-lugares-plain-cinza-clap_st3.jpg?v=637243072175770000',
       preco: 2799.0
     },
     {
       fornecedor_id: 2,
-      nome: 'BAMBOO KIT UTENSÍLIOS 4 PÇS',
+      nome: 'BAMBOO KIT UTENSILIOS 4 PCS',
       image_url:
         'https://tokstok.vtexassets.com/arquivos/ids/1746008-553-553/Kit-Utensilios-4-Pcs-Natural-Bamboo.jpg?v=637000984879870000',
       preco: 35.9
     },
     {
       fornecedor_id: 2,
-      nome: 'BAMBOO TÁBUA 36 CM X 26 CM',
+      nome: 'BAMBOO TABUA 36 CM X 26 CM',
       image_url:
         'https://tokstok.vtexassets.com/arquivos/ids/1746012-553-553/Tabua-36-Cm-X-26-Cm-Natural-Bamboo.jpg?v=637000984882070000',
       preco: 95.9
@@ -46,7 +46,7 @@ export async function seed(knex: Knex): Promise<void> {
     },
     {
       fornecedor_id: 3,
-      nome: 'BRASÃO ESPELHO 36 CM X 25 CM',
+      nome: 'BRASAO ESPELHO 36 CM X 25 CM',
       image_url:
         'https://tokstok.vtexassets.com/arquivos/ids/1875664-553-553/espelho-36-cm-x-25-cm-castanho-bras-o_st0.jpg?v=637044659725730000',
       preco: 169.9
@@ -88,7 +88,7 @@ export async function seed(knex: Knex): Promise<void> {
     },
     {
       fornecedor_id: 5,
-      nome: 'BLAYET TAÇA BORDEAUX 630 ML',
+      nome: 'BLAYET TACA BORDEAUX 630 ML',
       image_url:
         'https://tokstok.vtexassets.com/arquivos/ids/2314931-553-553/taca-bordeaux-630-ml-incolor-blayet_st0.jpg?v=637348935409670000',
       preco: 9.9
