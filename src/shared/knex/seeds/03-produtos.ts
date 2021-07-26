@@ -3,7 +3,6 @@ import { Knex } from 'knex';
 export async function seed(knex: Knex): Promise<void> {
   await knex('produtos').insert([
     {
-      id: 1,
       fornecedor_id: 1,
       nome: 'EN BLOCK SOFÁ-CAMA 3 LUGARES',
       image_url:
@@ -11,7 +10,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 3299.0
     },
     {
-      id: 2,
       fornecedor_id: 1,
       nome: 'SIDE SOFÁ-CAMA 3 LUGARES',
       image_url:
@@ -19,7 +17,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 3399.0
     },
     {
-      id: 3,
       fornecedor_id: 1,
       nome: 'CLAP SOFÁ-CAMA 3 LUGARES',
       image_url:
@@ -27,7 +24,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 2799.0
     },
     {
-      id: 4,
       fornecedor_id: 2,
       nome: 'BAMBOO KIT UTENSÍLIOS 4 PÇS',
       image_url:
@@ -35,7 +31,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 35.9
     },
     {
-      id: 5,
       fornecedor_id: 2,
       nome: 'BAMBOO TÁBUA 36 CM X 26 CM',
       image_url:
@@ -43,7 +38,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 95.9
     },
     {
-      id: 6,
       fornecedor_id: 2,
       nome: 'CHILLI FRIGIDEIRA 24 CM',
       image_url:
@@ -51,7 +45,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 69.9
     },
     {
-      id: 7,
       fornecedor_id: 3,
       nome: 'BRASÃO ESPELHO 36 CM X 25 CM',
       image_url:
@@ -59,7 +52,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 169.9
     },
     {
-      id: 8,
       fornecedor_id: 3,
       nome: 'YOU ME ESPELHO DECORATIVO 39 CM X 25 CM',
       image_url:
@@ -67,7 +59,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 189.9
     },
     {
-      id: 9,
       fornecedor_id: 3,
       nome: 'PELICANO ESPELHO REDONDO 60 CM',
       image_url:
@@ -75,7 +66,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 539.0
     },
     {
-      id: 10,
       fornecedor_id: 4,
       nome: 'VERTUS CORTINA 2 PC 1,40 M X 2,30 M',
       image_url:
@@ -83,7 +73,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 89.9
     },
     {
-      id: 11,
       fornecedor_id: 4,
       nome: 'TIE CORTINA 2PCS 1,50 M X 2,20 M',
       image_url:
@@ -91,7 +80,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 97.9
     },
     {
-      id: 12,
       fornecedor_id: 4,
       nome: 'VESTIGE CORTINA 2PCS 1,40 M X 2,50 M',
       image_url:
@@ -99,7 +87,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 259.9
     },
     {
-      id: 13,
       fornecedor_id: 5,
       nome: 'BLAYET TAÇA BORDEAUX 630 ML',
       image_url:
@@ -107,7 +94,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 9.9
     },
     {
-      id: 14,
       fornecedor_id: 5,
       nome: 'JUJU BALEIRO MED.',
       image_url:
@@ -115,7 +101,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 222.9
     },
     {
-      id: 15,
       fornecedor_id: 5,
       nome: 'FLUTUANTES VASO 39 CM',
       image_url:
@@ -123,7 +108,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 169.9
     },
     {
-      id: 16,
       fornecedor_id: 6,
       nome: 'SET PUFF',
       image_url:
@@ -131,7 +115,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 99.99
     },
     {
-      id: 17,
       fornecedor_id: 6,
       nome: 'TALK CADEIRA',
       image_url:
@@ -139,7 +122,6 @@ export async function seed(knex: Knex): Promise<void> {
       preco: 139.99
     },
     {
-      id: 18,
       fornecedor_id: 6,
       nome: 'LINO GAVETEIRO 3 GAVETAS',
       image_url:
